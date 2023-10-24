@@ -38,7 +38,7 @@ let sum2 = 0;
 for (let i = 0; i < array4.length; i++) {
   sum2 += array4[i];
 }
-console.log(sum2 % 6);
+console.log(sum2 / array4.length);
 
 // task 6
 let array5 = [1, 2, 3, 7, 6, 9];
