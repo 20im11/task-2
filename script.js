@@ -68,7 +68,7 @@ if (user2.age < 18) {
   console.log("hello");
 } else if (user2.name == "Levan") {
   console.log("Hello Levan");
-} else if (user2.studentstatus == "active" && user2.age < 25) {
+} else if (user2.studentstatus == "active" || user2.age < 25) {
   console.log("Hello world");
 } else {
   console.log("error");
